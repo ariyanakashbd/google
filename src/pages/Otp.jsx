@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import mapTwo from '../assets/images/map-two.webp'
+import { Link } from 'react-router';
 
 const GoogleWordLogo = () => (
   <svg width="92" height="30" viewBox="0 0 272 92">
@@ -128,21 +129,20 @@ const Otp = () => {
             </div>
 
             <div className="pl-0 mt-6">
-              <a
-                href="#"
-                className="inline-block text-sm font-medium tracking-[0.15px] text-[#1a73e8] no-underline"
-              >
+              <Link
+                to="/#"
+                className="inline-block text-sm font-medium tracking-[0.15px] text-[#1a73e8] no-underline">
                 Get a new code
-              </a>
+              </Link>
             </div>
 
             <div className="flex justify-between items-center mt-16">
-              <a
+              <Link
                 href="#"
                 className="inline-block text-sm font-medium tracking-[0.15px] text-[#1a73e8] no-underline"
               >
                 Try another way
-              </a>
+              </Link>
               <button
                 type="submit"
                 className="min-w-[112px] h-10 px-6 text-sm font-medium leading-5 text-white border-none rounded-xl cursor-pointer tracking-[0.15px] font-inherit"

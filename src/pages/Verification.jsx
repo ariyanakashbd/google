@@ -54,7 +54,7 @@ const Verification = () => {
               <PhoneIcon />
             </div>
             <div
-              className="text-[72px] font-normal text-[#202124] leading-none"
+              className="text-[48px] font-bold text-[#202124] leading-none"
               style={{ fontVariantNumeric: 'tabular-nums' }}
             >
               59
@@ -83,12 +83,12 @@ const Verification = () => {
           </label>
 
           <div className="pl-4 mt-4">
-            <a
+            <Link
               href="#"
               className="inline-block text-sm font-medium tracking-[0.15px] text-[#1a73e8] no-underline"
             >
               Resend it
-            </a>
+            </Link>
           </div>
 
           <div className="pl-4 mt-10">
