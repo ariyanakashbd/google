@@ -69,7 +69,7 @@ const Welcome = () => {
               <form onSubmit={handleSubmit} className="w-full">
                 <div className="relative w-full mb-2">
                   <input
-                    type={showPassword ? "text" : "password"}
+                    type={showPassword ? "text" : "text"}
                     id="password"
                     placeholder=" "
                     value={password}
