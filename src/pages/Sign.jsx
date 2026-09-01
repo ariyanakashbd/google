@@ -46,7 +46,7 @@ const Sign = () => {
       <Container>
         <div className="flex  justify-center items-center w-full">
           <div
-            className="bg-white rounded-[28px] p-6 sm:px-6 md:py-6 sm:py-10 md:py-12 w-full max-w-[900px] grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center"
+            className="bg-white rounded-[28px] p-6 sm:px-6 md:py-15 sm:py-10 md:py-12 w-full max-w-[900px] grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center"
             style={{
               boxShadow: '0 1px 3px 0 rgba(60,64,67,0.15), 0 4px 8px 3px rgba(60,64,67,0.1)'
             }}
